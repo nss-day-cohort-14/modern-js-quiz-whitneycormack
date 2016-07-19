@@ -8,10 +8,11 @@
 </head>
 <body>
 
-<h1>Welcome to the Thunderdome!</h1>
+<header>Welcome to the Thunderdome!</header>
+<p>Please input a user name and choose your robot for battle</p>
+<p>Push the "Ready" button to set the players, "Attack" to battle, &#38; "Reset" to play a new game</p>
 
-
-<div>
+<div id="container1">
   <h1>Player 1</h1>
     <div id="makeRobot1">
       <input type="text" name="" id="player1">
@@ -21,7 +22,7 @@
   </div>
 </div>
 
-<div>
+<div id="container2">
   <h1>Player 2</h1>
   <div id="makeRobot2">
     <input type="text" name="" id="player2">
@@ -31,13 +32,17 @@
   </div>
 </div>
 
-<button id="fightReady">Ready to Fight?</button>
-
-<button class="hidden" id="attackButton">Attack!</button>
-
-<button class="hidden" id="reset">Reset</button>
-
 <div id="winner">
+</div>
+
+<div id="buttons">
+  
+<button class="button" id="fightReady">Ready to Fight?</button>
+
+<button class="hidden button" id="attackButton">Attack!</button>
+
+<button class="hidden button" id="reset">Reset</button>
+
 </div>
 
 
