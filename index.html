@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Modern-JS-Quiz</title>
+  <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+<header>Welcome to the Thunderdome!</header>
+<p>Please input a user name and choose your robot for battle</p>
+<p>Push the "Ready" button to set the players, "Attack" to battle, &#38; "Reset" to play a new game</p>
+
+<div id="container1">
+  <h1>Player 1</h1>
+    <div id="makeRobot1">
+      <input type="text" name="" id="player1">
+      <select id="select1" class="robot-options"></select>
+    </div>
+  <div id="fightRobot1">
+  </div>
+</div>
+
+<div id="container2">
+  <h1>Player 2</h1>
+  <div id="makeRobot2">
+    <input type="text" name="" id="player2">
+    <select id="select2" class="robot-options"></select>
+  </div>
+  <div id="fightRobot2">
+  </div>
+</div>
+
+<div id="winner">
+</div>
+
+<div id="buttons">
+  
+<button class="button" id="fightReady">Ready to Fight?</button>
+
+<button class="hidden button" id="attackButton">Attack!</button>
+
+<button class="hidden button" id="reset">Reset</button>
+
+</div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
+
+
+
+
+

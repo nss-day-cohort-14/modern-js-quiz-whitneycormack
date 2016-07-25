@@ -1,0 +1,104 @@
+.hidden {
+  display: none;
+}
+
+body {
+    background-color: #A9A9A9;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+header {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.3px; 
+    margin: 5%;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+
+#container1 {
+  width: 40%;
+  height: 40%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  float: left;
+  padding: 2%;
+}
+
+#container2 {
+  width: 40%;
+  height: 40%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  float: right;
+  padding: 2%;
+}
+
+#winner {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: white;
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 50%;
+    margin: 1%;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#fightReady {
+  background-color: #00cc66;
+}
+
+#attackButton {
+  background-color: #ff3300;
+}
+
+#reset {
+  background-color: #0099ff;
+}
+
+
+
+
+
+
+
